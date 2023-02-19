@@ -9,4 +9,5 @@ jobs:
         run: sudo apt-get install tmate
       - name: chạy tmate
         run: tmate
-      
+      - name: run loop
+        run: tail -f /dev/null
